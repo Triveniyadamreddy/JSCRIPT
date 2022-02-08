@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript Operaters</title>
+    <script>
+      // The function below will start Displaying the options
+      function myFunction() {
+        let  Action = prompt("choose an  operater?",'+, - ,  *, / ');
+        if (Action==1) {
+          alert("Addition");
+          const number1=parseInt(prompt("Ënter first number: ",''));
+          const number2=parseInt(prompt("Enter second number:", ''));
+          const result = number1 + number2;
+          alert("result is" + result);
+          
+        }
+         else if (Action==2){
+          alert("subtraction");
+          const number1=parseInt(prompt("Ënter first number: ",''));
+          const number2=parseInt(prompt("Enter second number:", ''));
+          const result = number1 - number2;
+          alert("result is" + result);
+        }
+        else if (Action==3) {
+            alert("multiplication");
+          const   number1=parseInt(prompt("Ënter first number: ",''));
+          const number2=parseInt(prompt("Enter second number:", ''));
+          const result = number1 * number2;
+          alert("result is" + result);
+        }
+        else if (Action==4){
+            alert("divison");
+            const   number1=parseInt(prompt("Ënter first number: ",''));
+          const number2=parseInt(prompt("Enter second number:", ''));
+          const result = number1 / number2;
+          alert("result is" + result);
+        }
+        else
+        alert("not a valid option")
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Choose a operater</h1>
+    <button onclick="myFunction()">start</button>
+  </body>
+</html>

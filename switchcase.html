@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Operaters +</title>
+    <script>
+        let result;
+        function calculate(){
+
+         let choice = parseInt(prompt("Enter your choice:"));
+
+        }
+
+        switch (choice) {
+            case 1:
+                result = x + y;
+                console.log("\nResult is :" + result)
+                break
+
+            case 2:
+                result = x - y
+                console.log("\nResult is :" + result)
+                break
+
+            case 3:
+                result = x * y
+                console.log("\nResult is :" + result)
+                break
+
+            case 4:
+                result = x / y
+                console.log("\nResult is :" + result)
+                break
+
+
+
+            default:
+                console.log("Invalid Choice:" + choice)
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Choose an operater</h1>
+    <button onclick="calculate()">start</button>
+</body>
+
+</html>

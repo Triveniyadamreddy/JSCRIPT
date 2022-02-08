@@ -1,0 +1,15 @@
+console.log('Hello  console');
+let mynew = String(34);
+console.log(mynew,typeof(mynew));
+let mynew1 = Number("Fullcreative");
+console.log(mynew1,typeof(mynew1));
+let mynew3 = String("Fullcreative");
+console.log(mynew3,typeof(mynew3));
+let a = parseInt(1.00);
+console.log(a, typeof(a));
+let mynew2 = String([1,2,3,4,5]);
+console.log(mynew2,typeof(mynew2)); 
+let arr = String([1,2,3,4,5]);
+console.log(arr.length,typeof(arr)); 
+let arr1 = [1,2,3,4,5];
+console.log(arr1.length,typeof(arr1));
